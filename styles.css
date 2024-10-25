@@ -1,0 +1,79 @@
+body {
+    font-family: "Courier";
+    background-color: rgb(25,25,30)
+}
+
+h1 {
+    text-align: Center;
+    color: rgb(255,200,50)
+}
+
+h2 {
+    /*text-align: Center;*/
+    color: rgb(150,150,150)
+}
+
+.img_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.page_button {
+    background-color: rgb(35,35,35);
+    border: 2px solid rgb(75,150,200);
+    color: rgb(255,200,50);
+    padding: 5px 32px;
+    font-size: 16px;
+    border-radius: 0%;
+    width: 32.8%;
+    font-family: "Courier";
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.page_button:hover {opacity: 1}
+
+hr {
+    border-top: 1px dashed rgb(75,150,200);
+    border-bottom: 1px dashed rgb(75,150,200);
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(25,25,30);
+    color: rgb(255,200,50);
+    border: 2px solid rgb(75,150,200);
+    font-family: "Courier";
+    font-size: 16px;
+}
+
+.center_button {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    background-color: rgb(35,35,35);
+    border: 2px solid rgb(75,150,200);
+    color: rgb(255,200,50);
+    padding: 5px 32px;
+    font-size: 16px;
+    border-radius: 0%;
+    width: 10%;
+    font-family: "Courier";
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.center_button:hover {opacity: 1}
+
+h6 {
+    text-align: center;
+    color: rgb(150,150,150);
+}
